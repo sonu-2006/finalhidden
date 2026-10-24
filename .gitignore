@@ -24,6 +24,11 @@ wheels/
 .installed.cfg
 *.egg
 
+# Node dependencies & caches
+node_modules/
+.pytest_cache/
+.npm/
+
 # Virtual environments
 venv/
 .venv/
