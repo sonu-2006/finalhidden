@@ -2,8 +2,8 @@
 export const STATIC_METADATA = {
   "project_name": "Medical Hallucination Detection in Large Language Models Using Hidden-State Probing",
   "group_id": "G076",
-  "student_name": "Gnyana Samhitha",
-  "guide_name": "Dr. Swapna T R",
+  "student_name": "Group 76",
+  "guide_name": "Dr. Swapna T R (Associate Professor)",
   "department": "Department of Computer Science & Engineering",
   "description": "Real-time token-level monitoring of internal LLM activations (layers 4, 20, 32) via calibrated probes to detect and pre-emptively truncate clinical hallucinations 14-32 tokens before emission.",
   "total_experiments": 4,

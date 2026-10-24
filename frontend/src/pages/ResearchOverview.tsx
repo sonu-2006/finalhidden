@@ -61,13 +61,13 @@ export const ResearchOverview: React.FC<ResearchOverviewProps> = ({ onNavigate }
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4 p-4 rounded-xl bg-slate-900/90 border border-slate-800/80 text-xs">
           <div>
             <span className="text-slate-400 block font-mono text-[10px] uppercase">Investigator</span>
-            <span className="font-bold text-white text-sm">Gnyana Samhitha</span>
+            <span className="font-bold text-white text-sm">Group 76</span>
             <span className="block text-slate-400 text-[11px]">Dept. of CSE</span>
           </div>
           <div>
             <span className="text-slate-400 block font-mono text-[10px] uppercase">Faculty Guide</span>
             <span className="font-bold text-blue-300 text-sm">Dr. Swapna T R</span>
-            <span className="block text-slate-400 text-[11px]">Faculty Advisor, CSE</span>
+            <span className="block text-slate-400 text-[11px]">Associate Professor, CSE</span>
           </div>
           <div>
             <span className="text-slate-400 block font-mono text-[10px] uppercase">Artifact Evaluation</span>

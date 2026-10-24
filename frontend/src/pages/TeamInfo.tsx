@@ -6,7 +6,7 @@ export const TeamInfo: React.FC = () => {
 
   const bibtex = `@article{rthd_group76_2026,
   title={Medical Hallucination Detection in Large Language Models Using Hidden-State Probing},
-  author={Gnyana Samhitha and Dr. Swapna T R},
+  author={Group 76 and Dr. Swapna T R},
   journal={Department of Computer Science & Engineering, Final Year Capstone Project},
   year={2026},
   institution={Department of Computer Science & Engineering},
@@ -37,9 +37,9 @@ export const TeamInfo: React.FC = () => {
         <div className="glass-card p-6 rounded-2xl border border-slate-800 space-y-3">
           <div className="flex items-center space-x-2 text-xs font-mono text-blue-400 uppercase font-bold">
             <GraduationCap className="h-4 w-4" />
-            <span>Student Investigator</span>
+            <span>Project Team</span>
           </div>
-          <h3 className="text-xl font-bold text-white tracking-tight">Gnyana Samhitha</h3>
+          <h3 className="text-xl font-bold text-white tracking-tight">Group 76</h3>
           <p className="text-xs text-slate-400 font-mono">Department of Computer Science & Engineering</p>
           <div className="pt-2 text-xs text-slate-300 leading-relaxed space-y-1">
             <p>
@@ -60,7 +60,7 @@ export const TeamInfo: React.FC = () => {
             <span>Faculty Advisor & Guide</span>
           </div>
           <h3 className="text-xl font-bold text-emerald-300 tracking-tight">Dr. Swapna T R</h3>
-          <p className="text-xs text-slate-400 font-mono">Faculty Guide, Dept. of Computer Science & Engineering</p>
+          <p className="text-xs text-slate-400 font-mono">Associate Professor, Dept. of Computer Science & Engineering</p>
           <div className="pt-2 text-xs text-slate-300 leading-relaxed space-y-1">
             <p>
               • Academic capstone project supervision, research problem validation, and evaluation rubric coordination.

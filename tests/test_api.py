@@ -17,8 +17,8 @@ def test_metadata():
     data = res.json()
     assert "Medical Hallucination Detection" in data["project_name"]
     assert data["group_id"] == "G076"
-    assert data["student_name"] == "Gnyana Samhitha"
-    assert data["guide_name"] == "Dr. Swapna T R"
+    assert data["student_name"] == "Group 76"
+    assert "Dr. Swapna T R" in data["guide_name"]
 
 
 def test_datasets():
