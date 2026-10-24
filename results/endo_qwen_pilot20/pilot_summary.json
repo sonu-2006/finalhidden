@@ -1,0 +1,26 @@
+{
+  "experiment": "RTHD pilot",
+  "model": "Qwen3-8B, 4-bit loading",
+  "dataset": "endo_diag",
+  "number_of_trajectories": 20,
+  "number_of_labelled_error_cases": 20,
+  "detected_before_heuristic_label": 20,
+  "early_detection_proportion": 1.0,
+  "mean_lead_time_tokens": 15.65,
+  "intervention_hallucination_reduction": 0.9,
+  "intervention_completeness": 0.87421875,
+  "intervention_stop_threshold": 0.85,
+  "intervention_min_tokens": 10,
+  "probe_metrics": {
+    "accuracy": 0.7578125,
+    "f1_safe": 0.8818897637795275,
+    "f1_atrisk": 0.46153846153846156,
+    "f1_hallucinating": 0.14814814814814814
+  },
+  "limitations": [
+    "Pilot uses only 20 trajectories.",
+    "Error labels are heuristic, not independently clinically verified.",
+    "No reliable false-positive rate from this run.",
+    "Intervention metrics are simulated."
+  ]
+}

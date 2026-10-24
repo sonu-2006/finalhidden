@@ -1,0 +1,27 @@
+{
+  "experiment": "RTHD pilot",
+  "model": "Llama-3.1-8B-Instruct, 4-bit loading",
+  "dataset": "pubmedqa",
+  "number_of_trajectories": 20,
+  "number_of_labelled_error_cases": 4,
+  "detected_before_heuristic_label": 4,
+  "early_detection_proportion": 1.0,
+  "mean_lead_time_tokens": 32.5,
+  "false_positive_rate": 0.0625,
+  "intervention_hallucination_reduction": 1.0,
+  "intervention_completeness": 0.95625,
+  "intervention_stop_threshold": 0.85,
+  "intervention_min_tokens": 10,
+  "probe_metrics": {
+    "accuracy": 0.90625,
+    "f1_safe": 0.9517543859649122,
+    "f1_atrisk": 0.2962962962962963,
+    "f1_hallucinating": 0.25
+  },
+  "limitations": [
+    "Pilot uses only 20 trajectories.",
+    "Error labels are heuristic, not independently clinically verified.",
+    "Intervention metrics are simulated.",
+    "Evaluation depends on heuristic annotation thresholds."
+  ]
+}

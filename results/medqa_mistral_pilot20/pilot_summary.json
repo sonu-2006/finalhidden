@@ -1,0 +1,27 @@
+{
+  "experiment": "RTHD pilot",
+  "model": "Mistral-7B-Instruct-v0.3, 4-bit loading",
+  "dataset": "medqa",
+  "number_of_trajectories": 20,
+  "number_of_labelled_error_cases": 15,
+  "detected_before_heuristic_label": 15,
+  "early_detection_proportion": 1.0,
+  "mean_lead_time_tokens": 27.066666666666666,
+  "false_positive_rate": 0.4,
+  "intervention_hallucination_reduction": 0.8666666666666667,
+  "intervention_completeness": 0.9143754909662215,
+  "intervention_stop_threshold": 0.85,
+  "intervention_min_tokens": 10,
+  "probe_metrics": {
+    "accuracy": 0.8431372549019608,
+    "f1_safe": 0.9137931034482759,
+    "f1_atrisk": 0.5483870967741935,
+    "f1_hallucinating": 0.21052631578947367
+  },
+  "limitations": [
+    "Pilot uses only 20 trajectories.",
+    "Error labels are heuristic, not independently clinically verified.",
+    "Intervention metrics are simulated.",
+    "Evaluation depends on heuristic annotation thresholds."
+  ]
+}
